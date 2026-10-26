@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+}
+header{
+    background-color: #fffaff;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 12px
+}
+    
+
+
