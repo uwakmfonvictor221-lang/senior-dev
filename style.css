@@ -4,19 +4,59 @@
     box-sizing: border-box;
 }
 body{
-    background-color: blue;
+    background-color: white;
 }
 header{
-    background-color: #fffaff;
+    background-color: #fffeff;
     display: flex;
     justify-content: space-between;
+    padding:  20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.logo{
+    font-size: 30px;
+     font-weight: bold;
+    font-family: "Rubik Storm", system-ui;
 }
 
 ul{
     display: flex;
     list-style-type: none;
-    gap: 12px
+    gap: 12px;
+    
 }
+li a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-family: "Playwrite AR Guides", cursive;
+    font-weight: bold;
+
+}
+.pot{
+    border: 0;
+    background-color: inherit;
+    font-weight: 20px;text-transform: capitalize;
+
+}
+.btl-container{
+display: flex;
+gap: 20px;
+}
+.plate{
+    border-radius: 20px;
+    padding: 10px;
+    border: 0;
+    background-color: #171715;
+    color: #fff;
+    font-weight: 550;
+
+}
+
+
     
 
 
