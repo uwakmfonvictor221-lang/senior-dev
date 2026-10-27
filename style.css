@@ -56,6 +56,33 @@ gap: 20px;
     font-weight: 550;
 
 }
+main{
+    margin-top: 76;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: o 20px;
+}
+.hero > div{
+    width:50%;
+}
+#right > img{
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#left{
+    background-color: #f5f5f2;
+    display: flex;
+    align-items: center;
+}
+#left >div{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
 
 
     
