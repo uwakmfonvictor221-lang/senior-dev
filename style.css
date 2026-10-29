@@ -57,26 +57,34 @@ gap: 20px;
 
 }
 main{
-    margin-top: 76;
+    margin-top: 76px;
+   
 }
 
 .hero{
     display: flex;
     justify-content: space-between;
-    padding: o 20px;
+    padding: 25px;
+     
+    
 }
 .hero > div{
     width:50%;
+    
 }
 #right > img{
     width: 100%;
     border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    
 }
 #left{
     background-color: #f5f5f2;
     display: flex;
     align-items: center;
+    padding: 25px;
+    border-top-left-radius: 15px;
+
+
 }
 #left >div{
     display: flex;
