@@ -83,6 +83,7 @@ main{
     align-items: center;
     padding: 25px;
     border-top-left-radius: 15px;
+    
 
 
 }
@@ -90,6 +91,45 @@ main{
     display: flex;
     flex-direction: column;
     gap: 25px;
+    margin-left: 50px;
+}
+h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.4rem;
+    line-height: 1.1;
+}
+.hero p{
+   color:#5E5E5C;
+}
+.dave{
+    font-weight: bold;
+}
+.phonk{
+    font-size: 1.3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sportify{
+    border-color: #DCDCDC;
+    border-width: 1px;
+    border-style: solid;
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: white;
+    
+}
+textarea{
+width: 100%;
+resize: none;
+border: none;
+outline: none;
+padding: 0 10px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 1.2rem;
+}
+.dad{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 10px;
 }
 
 
